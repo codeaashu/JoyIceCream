@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Joy Ice Creams — Website Redesign
 
-## Getting Started
+A fresh, immersive redesign for Joy Ice Creams, the pioneering Indian ice cream brand founded in 1948 by L.C. Java. This project rebuilds the legacy site into a modern, responsive experience that celebrates the brand’s history, iconic flavors, and joyful identity.
 
-First, run the development server:
+## Brand Snapshot
+- Founded in Mumbai in 1948 by L.C. Java, credited with bringing industrial ice cream to India.
+- Known for affordable, quality treats: kulfi, bars, cups, classic cones, and nostalgic flavors (vanilla, strawberry, mango, pista, butterscotch, more).
+- Innovator in low-fat options (e.g., “Slimmer”) and one of India’s first franchise models.
+- Brand promise: happiness, nostalgia, pure enjoyment—part of everyday moments and celebrations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What’s New in This Redesign
+- Bold hero and catalog storytelling with high-impact visuals and smoother scroll cues.
+- Flavor-forward sections highlighting classics and seasonal specials.
+- Clear calls to action for contact, catalog, and franchise interest.
+- Mobile-first layout with tailored hero, menu, and about experiences.
+- Improved performance basics: optimized assets, modern Next.js App Router, and typography via `next/font`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- Next.js (App Router, React, server-side rendering ready)
+- Tailwind CSS for utility-first styling
+- Smooth scrolling helpers and responsive navigation components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running the Project
+1. Install dependencies: `npm install` (or `yarn`/`pnpm`/`bun`).
+2. Start dev server: `npm run dev` then open http://localhost:3000.
+3. Build for production: `npm run build` and preview with `npm run start`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Layout
+- `src/app` — App Router pages (`page.tsx`, `about`, `catalog`, `contact`).
+- `src/components` — Reusable UI (Navbar, MobileMenu, Loading, smooth scroll, page sections).
+- `src/pages` — Legacy pages kept for reference.
+- `public/assets` — Brand imagery and 3D assets; base hero/menu scenes live here.
+- `public/new-icecream.png` and `public/old-icecream.png` — before/after visuals for quick comparisons.
 
-## Learn More
+## Visual Preview
+| Before (legacy) | After (redesign) |
+| --- | --- |
+| ![Old site](public/old-icecream.png) | ![New design](public/new-icecream.png) |
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+- All brand facts are sourced from public materials (Joy Ice Creams site, Instagram, and press mentions).
+- Assets in `public/` are for demonstration; replace with production-ready imagery as needed.
