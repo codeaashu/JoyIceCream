@@ -27,10 +27,10 @@ function Footer() {
             joyful!
           </h1>
           <div className=" uppercase text-[0.7rem] lg:text-xs flex  items-center gap-7 lg:gap-10 mt-5 text-white">
-            <h1>instagram</h1>
-            <h1>facebook</h1>
-            <h1>twitter</h1>
-            <h1>pintrest</h1>
+            <a href="https://www.instagram.com/joyicecreamsofficial/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">instagram</a>
+            <a href="https://www.facebook.com/JoyIceCreams/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">facebook</a>
+            <a href="https://twitter.com/joyicecreams" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">twitter</a>
+            <a href="https://www.pinterest.com/joyicecreams/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">pinterest</a>
           </div>
           <h1
             className={`${signatie.className} text-3xl lg:text-4xl mt-16 font-semibold text-white`}
