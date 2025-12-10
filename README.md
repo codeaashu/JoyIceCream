@@ -20,13 +20,6 @@ A fresh, immersive redesign for Joy Ice Creams, the pioneering Indian ice cream 
 - Tailwind CSS for utility-first styling
 - Smooth scrolling helpers and responsive navigation components
 
-## Project Layout
-- `src/app` — App Router pages (`page.tsx`, `about`, `catalog`, `contact`).
-- `src/components` — Reusable UI (Navbar, MobileMenu, Loading, smooth scroll, page sections).
-- `src/pages` — Legacy pages kept for reference.
-- `public/assets` — Brand imagery and 3D assets; base hero/menu scenes live here.
-- `public/new-icecream.png` and `public/old-icecream.png` — before/after visuals for quick comparisons.
-
 ## Visual Preview
 | Before (legacy) | After (redesign) |
 | --- | --- |
