@@ -20,11 +20,6 @@ A fresh, immersive redesign for Joy Ice Creams, the pioneering Indian ice cream 
 - Tailwind CSS for utility-first styling
 - Smooth scrolling helpers and responsive navigation components
 
-## Running the Project
-1. Install dependencies: `npm install` (or `yarn`/`pnpm`/`bun`).
-2. Start dev server: `npm run dev` then open http://localhost:3000.
-3. Build for production: `npm run build` and preview with `npm run start`.
-
 ## Project Layout
 - `src/app` — App Router pages (`page.tsx`, `about`, `catalog`, `contact`).
 - `src/components` — Reusable UI (Navbar, MobileMenu, Loading, smooth scroll, page sections).
