@@ -4,8 +4,6 @@ import "./globals.css";
 import { Manrope } from "next/font/google";
 import SmoothScroll from '@/components/SmoothScroll'
 
-
-
 const manrope = Manrope({
   weight: "600",
   subsets: ["latin"],
