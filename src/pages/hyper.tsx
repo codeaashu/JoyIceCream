@@ -29,7 +29,7 @@ export const HyperFocusText: React.FC<HyperFocusTextProps> = ({
                     key={index}
                     onClick={() => setFocusIndex(index)}
                     style={{
-                    color: focusColor,
+                    color: index === focusIndex ? focusColor : blurColor,
                     opacity: opacity,
                     cursor: 'pointer',
                     transition: 'opacity 0.2s ease',
